@@ -40,6 +40,17 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.container-our-proses {
+  margin-top: 94px;
+}
+.container-what-we-do {
+  margin-top: 188px;
+  margin-bottom: 94px;
+}
+.container-our-clients {
+  margin-top: 94px;
+  margin-bottom: 107px;
+}
 .main-nav {
   display: flex;
   align-items: center;
@@ -61,9 +72,16 @@ body {
   margin-right: 31px;
   margin-left: auto;
 }
-
+.color {
+  background-color: #f5f4fa;
+  padding-top: 92px;
+}
 .what-we-do:not(:last-child) {
   margin-right: 30px;
+}
+.card-color {
+  background-color: var(--primary-white-color);
+  margin-bottom: 92px;
 }
 .portfolio-icons:not(:last-child) {
   margin-right: 11px;
@@ -136,8 +154,10 @@ ul {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-
   color: var(--title-text-color);
+}
+.title-margin {
+  margin-top: 92px;
 }
 .white-description {
   font-weight: bold;
@@ -199,6 +219,8 @@ ul {
 /* Контейнеры проекта */
 .box1 {
   justify-content: center;
+  margin-top: 92px;
+  margin-bottom: 34px;
 }
 .box1-item:not(:last-child) {
   margin-right: 8px;
@@ -207,6 +229,7 @@ ul {
 .box2 {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 94px;
 }
 .box2-item {
   width: 370px;
