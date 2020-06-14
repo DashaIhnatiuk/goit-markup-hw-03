@@ -310,3 +310,6 @@ p {
 footer {
   background-color: var(--footer-backgroung-color);
 }
+.web-studio {
+  margin-bottom: 8px;
+}
